@@ -20,6 +20,6 @@ public class A5_StringManipulations {
         String str4 = str1.trim();
         System.out.println(str4);
 
-        //
+        //**
     }
 }
