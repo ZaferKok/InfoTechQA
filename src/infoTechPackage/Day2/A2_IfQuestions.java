@@ -3,6 +3,7 @@ package infoTechPackage.Day2;
 import java.util.Scanner;
 
 public class A2_IfQuestions {
+
     public static void main(String[] args) {
 // Sondan 3. rakamı tek olan müşteri olup olmadığını belirleyin.
         Scanner scan = new Scanner(System.in);
@@ -21,4 +22,5 @@ public class A2_IfQuestions {
         else
             System.out.println("Sistemde kayıtlı olmayan müşteri");
     }
+
 }
