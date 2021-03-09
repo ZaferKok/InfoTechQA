@@ -23,8 +23,9 @@ public class A1_MethodCreation {
         int c = a*b;
         return c;
     }
-    public static float ikiRakamTopFloat(float a, float b){
+    public static int ikiRakamTopFloat(float a, float b){
         float c = a+b;
-        return c;
+        int z = (int)c;
+        return z;
     }
 }
