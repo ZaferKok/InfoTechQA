@@ -15,7 +15,7 @@ public class A4_DoWhile {
                 System.out.println("Olmadı!. Tekrar dene!");
             }
             sayac++;
-            if (sayac == 3) {
+            if (sayac == 3 && r!=5 ) {
                 System.out.println("Hakkınız bitti. Game Over");
                 break;
             }
