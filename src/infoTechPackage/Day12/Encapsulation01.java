@@ -9,7 +9,6 @@ public class Encapsulation01 {
     //degıstirme-ulasabilme ozelligi eklememize yardımcı olur.
 
 
-
     public static void main(String[] args) {
         //adam clası tipinde bir adam olusturdum.
         Adam benimIlkAdamim = new Adam();
