@@ -7,7 +7,7 @@ public class Car {
     String marka = "Araba";
     String model = "Serisi";
 
-    Car(){
+    public Car(){
         System.out.println("========Basic Donanım Bilgileri============");
         System.out.println("Aracın Basic Fiyatı: " + this.price);
         System.out.println("Aracın model Yılı: " + this.year);
@@ -22,7 +22,8 @@ public class Car {
 
     }
 
-    Car(int price, int year, String marka, String model){ // Aracın fiyatını değiştirelim.
+    public Car(int price, int year, String marka, String model){
+        // Aracın fiyatını değiştirelim.
 
         this.price=price;
         this.year=year;
@@ -37,8 +38,13 @@ public class Car {
 
     }
 
-
-
-
-
+    @Override
+    public String toString() {
+        return "Bu benim arabam{" +
+                "price=" + price +
+                ", year=" + year +
+                ", marka='" + marka + '\'' +
+                ", model='" + model + '\'' +
+                '}';
+    }
 }
