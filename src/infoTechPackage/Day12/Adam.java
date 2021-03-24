@@ -14,24 +14,18 @@ public class Adam {
     public void addNewVarlik(Object yeniVarlik) {
         this.varlik.add(yeniVarlik);
     }
-
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
     public int getKimlikNo() {
         return kimlikNo;
     }
-
     public Object getVarlik() {
         return varlik;
     }
-
     public String getFirstName() {
         return firstName;
     }
-
     int topla(){
         int number3;
         return 3;
