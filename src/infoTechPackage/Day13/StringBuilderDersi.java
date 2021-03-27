@@ -1,9 +1,6 @@
 package infoTechPackage.Day13;
 
-import java.util.Locale;
-
 public class StringBuilderDersi {
-
     public static void main(String[] args) {
         String name = "istanbul";
         //string.de atama işlemi yok. ne yaparsan yap string değişmez.
@@ -48,8 +45,5 @@ public class StringBuilderDersi {
         //System.out.println(myString2.toString());
         //atama yapabiliriz.
         String s = myString2.toString();
-
-
-
     }
 }
