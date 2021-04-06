@@ -32,5 +32,7 @@ public class Day1 {
         double notortalamasi = 2.456;
         char c = '6';
         boolean b = true;
+
+        System.out.println("Zfr");
     }
 }
