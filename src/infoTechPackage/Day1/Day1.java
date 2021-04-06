@@ -34,5 +34,6 @@ public class Day1 {
         boolean b = true;
 
         System.out.println("Zfr");
+        System.out.println("Brk");
     }
 }
