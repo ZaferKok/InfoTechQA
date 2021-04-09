@@ -1,7 +1,5 @@
 package infoTechPackage.Day14;
 
-import java.util.Date;
-
 public class Insan extends Canli{
 
     public Insan() {
@@ -19,6 +17,7 @@ public class Insan extends Canli{
     public int yasHesapla(int dogumTarihi){
         return 2021-dogumTarihi;
     }
+
     public boolean isOgrenci(int dogumTarihi){
         if (2021-dogumTarihi<25){
             return true;
@@ -26,10 +25,9 @@ public class Insan extends Canli{
             return false;
         }
     }
+
     public void yemekYe(){
         System.out.println("ben yemek yerim");
     }
-
-
 
 }
